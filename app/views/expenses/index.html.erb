@@ -1,21 +1,32 @@
-<title>My Expense Sheet </title>
-<h1>My Expense Sheet</h1>
-<p>All your Expenses are here</p>
+<title>Shared Todo App </title>
 
-<table>
-  <thead class="well">
-  <tr>
-    <th>Date</th>
-    <th>Name</th>
-    <th>Amount</th>
-  </tr>
-  <tbody>
-  <% @expenses.each do |e| %>
-      <tr>
-        <td><%= e.created_at.to_date %></td>
-        <td><%= e.name %></td>
-        <td><%= e.amount %></td>
-      </tr>
-  <% end %>
-  </tbody>
-</table>
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      <h1>My Expense Sheet</h1>
+      <hr>
+      <p>All your Expenses are here</p>
+
+      <div class="well">
+        <table>
+          <thead class="well">
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Amount</th>
+          </tr>
+          <tbody>
+          <% @expenses.each do |e| %>
+              <tr>
+                <td><%= e.created_at.to_date %></td>
+                <td><%= e.name %></td>
+                <td><%= e.amount %></td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+        <p>Total Expenses : <%= @expenses.sum(:amount) %></p>
+      </div>
+    </div>
+  </div>
+</div>

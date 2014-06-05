@@ -11,8 +11,8 @@
   <tbody>
   <% @expenses.each do |e| %>
       <tr>
-        <td><%= :name %></td>
-        <td><%= :amount %></td>
+        <td><%= e.name %></td>
+        <td><%= e.amount %></td>
       </tr>
   <% end %>
   </tbody>

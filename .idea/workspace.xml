@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a76a175-cc3f-4979-bc5b-959a1118c51f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/my_expense_sheet.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/expenses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/expenses_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/expenses/index.html.erb" afterPath="$PROJECT_DIR$/app/views/expenses/index.html.erb" />
     </list>
     <ignored path="my_expense_sheet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.3275862" vertical-offset="0" max-vertical-offset="870">
+            <state line="19" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expenses_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="expenses_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/expenses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.10067114" vertical-offset="0" max-vertical-offset="894">
               <folding />
             </state>
           </provider>
@@ -410,16 +404,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/expenses_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+        <state line="19" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140605084557_create_expenses.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="335" selection-end="335" vertical-scroll-proportion="0.3275862" vertical-offset="0" max-vertical-offset="870">
+        <state line="10" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/expenses_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.10067114" vertical-offset="0" max-vertical-offset="894">
           <folding />
         </state>
       </provider>

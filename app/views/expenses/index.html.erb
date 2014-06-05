@@ -5,12 +5,14 @@
 <table>
   <thead class="well">
   <tr>
+    <th>Date</th>
     <th>Name</th>
     <th>Amount</th>
   </tr>
   <tbody>
   <% @expenses.each do |e| %>
       <tr>
+        <td><%= e.created_at.to_date %></td>
         <td><%= e.name %></td>
         <td><%= e.amount %></td>
       </tr>

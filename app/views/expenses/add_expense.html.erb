@@ -1,0 +1,6 @@
+
+<%= form_for @new_expense, :url => {:action => "add_expense"} do |e| %>
+    <%= e.text_field :name, :autofocus=>true %>
+    <%= e.text_field :amount%>
+    <%= e.submit "Add Expence", class: "btn btn-primary" %>
+<% end %>

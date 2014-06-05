@@ -1,0 +1,5 @@
+<%= form_for @new_income, :url => {:action => "add_income"} do |i| %>
+    <%= i.text_field :source, :autofocus=>true %>
+    <%= i.text_field :amount%>
+    <%= i.submit "Add Income", class: "btn btn-primary" %>
+<% end %>

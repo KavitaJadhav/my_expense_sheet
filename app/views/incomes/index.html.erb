@@ -1,0 +1,32 @@
+
+<title>Shared Todo App </title>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+      <h1>My Expense Sheet</h1>
+      <hr>
+      <p>All your Incomes are here</p>
+      <div class="well">
+        <table>
+          <thead class="well">
+          <tr>
+            <th>Date</th>
+            <th>Source</th>
+            <th>Amount</th>
+          </tr>
+          <tbody>
+          <% @incomes.each do |i| %>
+              <tr>
+                <td><%= i.created_at.to_date %></td>
+                <td><%= i.source %></td>
+                <td><%= i.amount %></td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+        <p>Total Incomes : <%= @incomes.sum(:amount) %></p>
+      </div>
+    </div>
+  </div>
+</div>

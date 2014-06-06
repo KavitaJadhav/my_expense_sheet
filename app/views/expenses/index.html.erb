@@ -30,7 +30,7 @@
       <p>All your Expenses are here</p>
 
       <div class="well">
-        <table>
+        <table class="table">
           <thead class="well">
           <tr>
             <th>Date</th>
@@ -47,7 +47,7 @@
           <% end %>
           </tbody>
         </table><br>
-        
+
         <h4><p>Total Expenses : <%= @expenses.sum(:amount) %></p></h4>
       </div>
     </div>

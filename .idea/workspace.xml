@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a76a175-cc3f-4979-bc5b-959a1118c51f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/incomes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/incomes_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/expenses/index.html.erb" afterPath="$PROJECT_DIR$/app/views/expenses/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/incomes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/incomes/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_expense_sheet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/incomes/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="8" selection-start="1364" selection-end="1380" vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="915">
+            <state line="37" column="27" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.63793105" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="8" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.8448276" vertical-offset="0" max-vertical-offset="915">
+            <state line="32" column="28" selection-start="940" selection-end="940" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -66,8 +64,8 @@
         <option value="$PROJECT_DIR$/app/models/income.rb" />
         <option value="$PROJECT_DIR$/app/views/incomes/add_income.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/incomes_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/incomes/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/expenses/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/incomes/index.html.erb" />
       </list>
     </option>
   </component>
@@ -801,16 +799,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/incomes/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="1364" selection-end="1380" vertical-scroll-proportion="-30.625" vertical-offset="0" max-vertical-offset="915">
+        <state line="32" column="28" selection-start="940" selection-end="940" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/incomes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="8" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.8448276" vertical-offset="0" max-vertical-offset="915">
+        <state line="37" column="27" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.63793105" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>

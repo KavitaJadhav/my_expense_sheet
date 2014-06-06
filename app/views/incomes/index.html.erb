@@ -1,4 +1,3 @@
-
 <title>Shared Todo App </title>
 
 <div class="container">
@@ -22,8 +21,14 @@
             <strong><%= flash[:success] %></strong>
           </div>
       <% end %>
-      
+
+      <h3>
+        <a href="/expenses/index">Expenses</a>
+        <a href="/incomes/index">Incomes</a>
+      </h3>
+
       <p>All your Incomes are here</p>
+
       <div class="well">
         <table>
           <thead class="well">
@@ -42,7 +47,8 @@
           <% end %>
           </tbody>
         </table>
-        <p>Total Incomes : <%= @incomes.sum(:amount) %></p>
+        <br>
+        <h4><p>Total Incomes : <%= @incomes.sum(:amount) %></p></h4>
       </div>
     </div>
   </div>

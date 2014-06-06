@@ -12,7 +12,7 @@ class IncomesController < ApplicationController
     unless income.valid?
       flash[:error] = income.errors.full_messages.join("<br>").html_safe
     else
-      flash[:success] = "#{income[:name]}' added successfully"
+      flash[:success] = "#{income.source} added to Incomes successfully"
     end
     redirect_to inc_index_path
   end

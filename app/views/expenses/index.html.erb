@@ -22,7 +22,13 @@
           </div>
       <% end %>
 
+      <h3>
+        <a href="/expenses/index">Expenses</a>
+        <a href="/incomes/index">Incomes</a>
+      </h3>
+
       <p>All your Expenses are here</p>
+
       <div class="well">
         <table>
           <thead class="well">
@@ -40,8 +46,9 @@
               </tr>
           <% end %>
           </tbody>
-        </table>
-        <p>Total Expenses : <%= @expenses.sum(:amount) %></p>
+        </table><br>
+        
+        <h4><p>Total Expenses : <%= @expenses.sum(:amount) %></p></h4>
       </div>
     </div>
   </div>

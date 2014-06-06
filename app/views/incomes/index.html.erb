@@ -8,6 +8,21 @@
       <a href="/expenses/add_expense">add expense</a><br>
       <a href="/incomes/add_income">add income</a>
       <hr>
+
+      <% if flash[:error] %>
+          <div class="alert alert-error">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong><%= flash[:error] %></strong>
+          </div>
+      <% end %>
+
+      <% if flash[:success] %>
+          <div class="alert alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <strong><%= flash[:success] %></strong>
+          </div>
+      <% end %>
+      
       <p>All your Incomes are here</p>
       <div class="well">
         <table>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a76a175-cc3f-4979-bc5b-959a1118c51f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/expenses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/expenses_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/incomes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/incomes_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/expenses/index.html.erb" afterPath="$PROJECT_DIR$/app/views/expenses/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/incomes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/incomes/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="my_expense_sheet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_common_layout.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_common_layout.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="435">
+            <state line="34" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6049822" vertical-offset="0" max-vertical-offset="843">
               <folding />
             </state>
           </provider>
@@ -76,7 +74,7 @@
       <file leaf-file-name="expenses_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/expenses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="54" selection-start="94" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="21" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -91,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="incomes_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="incomes_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/incomes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="446" selection-end="446" vertical-scroll-proportion="0.25951558" vertical-offset="0" max-vertical-offset="867">
+            <state line="19" column="3" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -124,6 +122,7 @@
         <option value="$PROJECT_DIR$/app/views/expenses/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/expenses_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/incomes_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
       </list>
     </option>
   </component>
@@ -542,7 +541,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="969" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="969" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -823,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/account_balance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="89" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/expenses/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="9" selection-start="110" selection-end="110" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="585">
@@ -844,23 +836,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/incomes_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="435">
+        <state line="19" column="3" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/account_balance.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="89" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/expenses_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="54" selection-start="94" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="21" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/incomes_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="446" selection-end="446" vertical-scroll-proportion="0.25951558" vertical-offset="0" max-vertical-offset="867">
+        <state line="34" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.6049822" vertical-offset="0" max-vertical-offset="843">
           <folding />
         </state>
       </provider>

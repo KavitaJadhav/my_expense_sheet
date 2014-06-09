@@ -3,6 +3,7 @@ class ExpensesController < ApplicationController
   def index
     @expenses = Expense.all_expenses
     @remaining_amount = AccountBalance.current_balance
+    @total_expense =  @expenses.sum(:amount)
   end
 
   def add_expense

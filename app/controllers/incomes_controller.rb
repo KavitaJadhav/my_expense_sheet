@@ -1,6 +1,6 @@
 class IncomesController < ApplicationController
   def index
-    @incomes = Income.all
+    @incomes = Income.all_incomes
     @remaining_amount = AccountBalance.current_balance
   end
 

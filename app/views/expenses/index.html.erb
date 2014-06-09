@@ -27,6 +27,7 @@
 
           <h4><p>Total Expenses : <%= @expenses.sum(:amount) %></p></h4>
         </div>
+        <%= link_to('Clear list', "reset/delete_all") %>
       </div>
     </div>
   </div>

@@ -16,6 +16,6 @@ class ExpensesController < ApplicationController
     else
       flash[:success] = "#{expense[:name]}' added successfully"
     end
-    redirect_to exp_index_path
+    redirect_to expense_index_path
   end
 end

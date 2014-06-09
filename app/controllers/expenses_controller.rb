@@ -1,7 +1,7 @@
 class ExpensesController < ApplicationController
 
   def index
-    @expenses = Expense.all
+    @expenses = Expense.all_expenses
     @remaining_amount = AccountBalance.current_balance
   end
 

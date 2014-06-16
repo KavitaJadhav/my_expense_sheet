@@ -2,7 +2,7 @@ class IncomesController < ApplicationController
   def index
     @incomes = Income.all_incomes
     @remaining_amount = AccountBalance.current_balance
-    @total_income =  @incomes.sum(:amount)
+    @total_income =  Income.sum
   end
 
   def add_income

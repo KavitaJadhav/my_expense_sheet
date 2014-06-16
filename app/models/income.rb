@@ -6,4 +6,8 @@ class Income < ActiveRecord::Base
     Income.all
   end
 
+  def self.sum
+    all_incomes.sum(:amount)
+  end
+
 end

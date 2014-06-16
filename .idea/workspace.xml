@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a76a175-cc3f-4979-bc5b-959a1118c51f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/expense.rb" afterPath="$PROJECT_DIR$/app/models/expense.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/expense_spec.rb" afterPath="$PROJECT_DIR$/spec/models/expense_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/expenses_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/expenses_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/account_balance.rb" afterPath="$PROJECT_DIR$/app/models/account_balance.rb" />
     </list>
     <ignored path="my_expense_sheet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,6 +29,15 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/expenses_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="20" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account_balance.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/account_balance.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="3" selection-start="87" selection-end="87" vertical-scroll-proportion="0.06711409" vertical-offset="0" max-vertical-offset="894">
               <folding />
             </state>
           </provider>
@@ -72,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expense_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="expense_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/expense_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="3" selection-start="320" selection-end="320" vertical-scroll-proportion="0.16778524" vertical-offset="0" max-vertical-offset="894">
+            <state line="10" column="3" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -96,7 +103,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/views/expenses/add_expense.html.erb" />
         <option value="$PROJECT_DIR$/app/views/incomes/add_income.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/account_balance.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/common_layout.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_common_layout.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -113,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/controllers/expenses_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/expense.rb" />
         <option value="$PROJECT_DIR$/spec/models/expense_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/account_balance.rb" />
       </list>
     </option>
   </component>
@@ -770,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/account_balance.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="32" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/account_balance_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="51" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -842,7 +842,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/expense_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="320" selection-end="320" vertical-scroll-proportion="0.16778524" vertical-offset="0" max-vertical-offset="894">
+        <state line="10" column="3" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/account_balance.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="87" selection-end="87" vertical-scroll-proportion="0.06711409" vertical-offset="0" max-vertical-offset="894">
           <folding />
         </state>
       </provider>

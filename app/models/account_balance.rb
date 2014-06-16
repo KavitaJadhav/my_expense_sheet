@@ -1,5 +1,5 @@
 class AccountBalance
   def self.current_balance
-    Income.all.collect(&:amount).compact.sum -  Expense.all.collect(&:amount).compact.sum
+    Income.sum -  Expense.sum
   end
 end

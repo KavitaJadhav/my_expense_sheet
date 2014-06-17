@@ -15,7 +15,7 @@ class ExpensesController < ApplicationController
     unless expense.valid?
       flash[:error] = expense.errors.full_messages.join("<br>").html_safe
     else
-      flash[:success] = "#{expense[:name]}' added successfully"
+      flash[:success] = "#{expense[:name]} added to Expenses successfully"
     end
     redirect_to expense_index_path
   end

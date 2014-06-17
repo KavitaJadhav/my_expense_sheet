@@ -17,7 +17,6 @@ describe ExpensesController do
       expect(flash[:success]).to eq "book added to Expenses successfully"
     end
 
-
     it 'should not create an expense with invalid values' do
       expense_count_before_post_request = Expense.count
       post :create_expense, expense: {name: nil, amount: nil}
@@ -26,4 +25,13 @@ describe ExpensesController do
     end
 
   end
+
+
+  describe 'add_income' do
+    it 'should redirect to add expense page' do
+      get :add_expense
+      response.response_code.should == 200
+    end
+  end
+
 end
